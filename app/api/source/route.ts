@@ -1,0 +1,1 @@
+export async function GET(){const url=process.env.SOURCE_COMMIT_URL;if(!url||!/^https:\/\/github\.com\/[^/]+\/[^/]+\/commit\/[a-f0-9]{40}$/.test(url))return new Response('SOURCE_COMMIT_URL에 GitHub 전체 커밋 주소를 설정해 주세요.',{status:503});return Response.redirect(url,302);}
