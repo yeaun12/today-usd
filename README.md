@@ -70,3 +70,5 @@ Cloudflare 전용 DB 연결을 Turso 연결로 교체했습니다. 실제 일별
 로컬 개발: `npm run dev`. 배포 빌드 확인: `npm run build`.
 
 공식 문서: https://vercel.com/docs/frameworks/full-stack/nextjs · https://docs.turso.tech/sdk/ts/reference
+
+배포확인용
